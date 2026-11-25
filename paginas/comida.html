@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <script src="../js/funciones.js"></script>
+</head>
+<body>
+     <div class="menu">
+  <ul>
+    <li><a href="../index.html">bienvenida</a></li>
+    <li><a href="historia.html">historia</a></li>
+    <li><a href="personajes.html">personajes</a></li>
+    <li><a href="regalos.html">regalos</a></li>
+    <li><a href="comida.html">comida</a></li>
+
+  </ul>
+  </div>
+  <div class="comida">
+    <h1>Comidas Navidenas </h1>
+    <div class="platos">
+        <div class="plato">
+            <img src="" alt="">
+            <h3>Pavo navideno</h3>
+            <p>Precio: Bs 80</p>
+            <button onclick="agregarComida('Pavo navideno', 80)">Agregar </button>
+        </div>
+        <div class="plato">
+            <img src="" alt="">
+            <h3>Lechon al horno</h3>
+            <p>Precio: Bs 65</p>
+            <button onclick="agregarComida('Lechon al horno', 65)">  Agregar  </button>
+        </div>
+        <div class="plato">
+            <img src="ensalada.png" alt="">
+            <h3>Ensalada rusa</h3>
+            <p>Precio: Bs 20</p>
+            <button onclick="agregarComida('Ensalada rusa', 20)"> Agregar </button>
+        </div>
+        <div class="plato">
+            <img src="paneton.png" alt="">
+            <h3>Paneton</h3>
+            <p>Precio: Bs 25</p>
+            <button onclick="agregarComida('Paneton', 25)">   Agregar </button>
+        </div>
+    </div>
+    <h2> Mi carrito de compras</h2>
+    <ul id="listaComida"></ul>
+    <h2 id="total">Total: Bs 0</h2>
+</div>
+</body>
+</html>

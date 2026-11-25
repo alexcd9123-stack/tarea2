@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/estilo.css "
+</head>
+<body>
+  <div class="menu">
+  <ul>
+    <li><a href="../index.html">bienvenida</a></li>
+    <li><a href="historia.html">historia</a></li>
+    <li><a href="personajes.html">personajes</a></li>
+    <li><a href="regalos.html">regalos</a></li>
+    <li><a href="comida.html">comida</a></li>
+
+  </ul>
+  </div>
+  <h1>Personajes de Navidad</h1>
+  <div class="contenedor">
+    <div class="personaje">
+      <img src="../imagenes/santa.webp" alt="">
+      <h3>Papa Noel </h3>
+      <button onclick="mostrar('papa')" >Ver descripcion </button>
+
+    </div>
+    <div class="personaje">
+      <img src="../imagenes/rodolfo.jpg" alt="">
+      <h3>Rodolfo</h3>
+      <button onclick="mostrar('rodolfo')">Ver descripcion</button>
+
+    </div>
+    <div class="personaje">
+      <img src="../imagenes/muneco.jpg" alt="">
+      <h3>Muneco de nieve</h3>
+      <button onclick="mostrar('nieve')">Ver descripcion</button>
+    </div>
+    <div class="personaje">
+      <img src="../imagenes/duende.jpg" alt="">
+      <h3>Duende</h3>
+      <button onclick="mostrar('duende')">Ver descripcion</button>
+
+    </div>
+    <div id="descripcion">
+      <h2 id="titulo"></h2>
+      <p id="texto"></p>
+
+    </div>
+    <script src="../js/funciones.js"></script>
+
+
+  </div>
+      
+  
+</body>
+</html>
